@@ -1,0 +1,10 @@
+//char* strcpy(char* destination, const char* source);
+#include<stdio.h>
+#include<string.h>
+int main(void)
+{
+    char str1[50]="Moon Rise is so peaceful song.";
+    char str2[50];
+    strcpy(str2,str1);//enter the string where it is to be copied 1st
+    puts(str2);
+}
